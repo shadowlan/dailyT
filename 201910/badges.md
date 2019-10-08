@@ -6,6 +6,4 @@
 * [open source badges](https://github.com/ellerbrock/open-source-badges)
 * [readme badges](https://github.com/boennemann/badges)
 
-
-
-
+_20191002_
