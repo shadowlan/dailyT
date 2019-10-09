@@ -22,7 +22,7 @@ netcat 作为网络工具中的瑞士军刀，能做的事情非常之多，在�
     client: `nc -n $ip 1234`
 
 ## 参考
-[cheetsheet](https://www.sans.org/security-resources/sec560/netcat_cheat_sheet_v1.pdf)
+[cheetsheet](https://www.sans.org/security-resources/sec560/netcat_cheat_sheet_v1.pdf)  
 [Linux Netcat 命令](https://www.oschina.net/translate/linux-netcat-command?lang=chs&p=1)
 
 _20191008_
