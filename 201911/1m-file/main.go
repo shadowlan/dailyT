@@ -29,13 +29,17 @@ func main() {
 		}
 		count++
 	}
+	// 简单版
+	// fileInfo, _ := os.Stat("1mfile")
+	// fmt.Printf("the size of 1mfile is %d", fileInfo.Size())
+	//复杂的方案，更适合用来遍历一个文件夹
 	err = filepath.Walk("1mfile", func(path string, info os.FileInfo, err error) error {
 		if err != nil {
 			fmt.Printf("prevent panic by handling failure accessing a path %q: %v\n", path, err)
 			return err
 		}
 		filesize := info.Size()
-		fmt.Println("the size of 1mfile is %d", filesize)
+		fmt.Printf("the size of 1mfile is %d", filesize)
 		return nil
 	})
 }
